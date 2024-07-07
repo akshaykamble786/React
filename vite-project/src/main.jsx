@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import './To-Do-List/todolist.css'
+// import './projects/ToDoList/todolist.css'
+// import './projects/ColorPicker/colorpicker.css';
+import "./projects/Stopwatch/stopwatch.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
