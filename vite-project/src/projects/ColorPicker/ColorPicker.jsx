@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const ColorPicker = () => {
 
-    const [color, setColor] = useState();
+    const [color, setColor] = useState("");
 
     const handleColorInput = (event) => setColor(event.target.value) 
 
@@ -12,6 +12,7 @@ const ColorPicker = () => {
 
     return (
     <div className="color-picker-container">
+
         <h2>Color Picker</h2>
         <div className="color-display">
             <p>Selected Color : {color}</p>
