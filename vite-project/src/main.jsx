@@ -7,7 +7,6 @@ import './projects/ColorPicker/colorpicker.css';
 import "./projects/Stopwatch/stopwatch.css"
 import "./projects/Calculator/calculator.css";
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
