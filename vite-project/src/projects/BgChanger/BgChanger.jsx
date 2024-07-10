@@ -14,7 +14,7 @@ const BgChanger = () => {
 
     useEffect(() => {
         if (isActive) {
-            const interval = setInterval(changeColor, 1000);
+            const interval = setInterval(changeColor, 500);
             return () => clearInterval(interval); 
         }
     }, [isActive]);
