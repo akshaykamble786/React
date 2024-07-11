@@ -8,6 +8,7 @@ import ColorPicker from './projects/ColorPicker/ColorPicker'
 import Stopwatch from './projects/Stopwatch/Stopwatch'
 import Calculator from './projects/Calculator/Calculator'
 import BgChanger from './projects/BgChanger/BgChanger'
+import PasswordGenerator from './projects/PasswordGenerator/PasswordGenerator'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Stopwatch/>
       <Calculator/>
       <BgChanger/>
+      <PasswordGenerator/>
+
     </>
   )
 }
